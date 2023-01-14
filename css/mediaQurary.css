@@ -22,4 +22,15 @@
         gap: 20px;
         margin: 14px;
     }
+    .collection-container{
+        margin: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .collection-item-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
